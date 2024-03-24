@@ -66,7 +66,7 @@ const Home = () => {
                                         <Card.Description>
                                             <p>名称：{statusState?.status?.system_name}</p>
                                             <p>版本：{process.env.REACT_APP_VERSION || '未知版本'}</p>
-                                            <p>源码：基于New API</p>
+                                            {/* <p>源码：基于New API</p> */}
                                             <p>启动时间：{getStartTimeString()}</p>
                                         </Card.Description>
                                     </Card.Content>

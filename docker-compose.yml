@@ -10,7 +10,7 @@ services:
       - SQL_DSN=chatapi:chatapi123123@tcp(mysql:3306)/chatapi
       - REDIS_CONN_STRING=redis://redis
       - SYNC_FREQUENCY=60
-      - SESSION_SECRET=LKh1D13HJsfKHD  # 修改为随机字符串
+      - SESSION_SECRET=LKh1D83HJsfKHD  # 修改为随机字符串
     volumes:
       - /data/chat-api:/data
     depends_on:

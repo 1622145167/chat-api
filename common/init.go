@@ -16,7 +16,7 @@ var (
 )
 
 func printHelp() {
-	fmt.Println("Chat API " + Version + " - All in one API service for OpenAI API.")
+	fmt.Println("WEI API " + Version + " - All in one API service for OpenAI API.")
 	fmt.Println("Copyright (C) 2023 JustSong. All rights reserved.")
 	fmt.Println("GitHub: https://one-ap")
 	fmt.Println("Usage: one-api [--port <port>] [--log-dir <log directory>] [--version] [--help]")

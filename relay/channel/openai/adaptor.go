@@ -57,7 +57,7 @@ func (a *Adaptor) SetupRequestHeader(c *gin.Context, req *http.Request, meta *ut
 		return nil
 	}
 	if meta.ChannelType == common.ChannelTypeOpenRouter {
-		req.Header.Set("X-Title", "One API")
+		req.Header.Set("X-Title", "微帝国 API")
 	}
 	return nil
 }
